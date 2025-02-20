@@ -8,6 +8,9 @@ vmware.vmware.guest_info:
         ansible_vmware_instance_uuid: .instance_uuid,
         ansible_vmware_bios_uuid: .hw_product_uuid,
         ansible_vmware_moid: .moid
+        ansible_vmware_esxi: .hw_esxi_host
+        ansible_vmware_istemplate: hw_is_template
+        ansible_vmware_name: hw_name
       },
       facts: {
         device_type: "VM"
