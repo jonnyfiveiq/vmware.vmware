@@ -5,7 +5,7 @@
 vmware.vmware.*:
   query: >-
     (
-      {"vm": "VM", "host": "ESXi", "vcsa": "vCenter Appliance", "cluster": "Cluster"} as $mapping |
+      {"vm": "VM", "hw_esxi_host" : "ESXi", "host": "ESXi", "vcsa": "vCenter Appliance", "cluster": "Cluster"} as $mapping |
       . as $data |
       ($data | with_entries(select(.key | in($mapping))) | keys | first) as $node_type |
       select(($node_type != null) and ($data[$node_type].name != null) and ($data[$node_type].moid != null)) |
