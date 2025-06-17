@@ -13,7 +13,7 @@ vmware.vmware.guest_info:
         ansible_vmware_esxi: .hw_esxi_host
       },
       facts: {
-        device_type: "VM"
+        device_type: "VMS"
       }
     }
 
