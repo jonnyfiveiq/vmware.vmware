@@ -8,7 +8,7 @@ vmware.vmware.appliance_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "vCenter Appliance"
       }
@@ -22,7 +22,7 @@ vmware.vmware.cluster:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -36,7 +36,7 @@ vmware.vmware.cluster_dpm:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -50,7 +50,7 @@ vmware.vmware.cluster_drs:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -64,7 +64,7 @@ vmware.vmware.cluster_drs_recommendations:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -78,7 +78,7 @@ vmware.vmware.cluster_ha:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -92,7 +92,7 @@ vmware.vmware.cluster_info:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -106,7 +106,7 @@ vmware.vmware.cluster_vcls:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Cluster"
       }
@@ -120,7 +120,7 @@ vmware.vmware.content_library_item_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -134,7 +134,7 @@ vmware.vmware.content_template:
         id: .template_id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -148,7 +148,7 @@ vmware.vmware.deploy_content_library_ovf:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -162,7 +162,7 @@ vmware.vmware.deploy_content_library_template:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -176,7 +176,7 @@ vmware.vmware.deploy_folder_template:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Management",
         device_type: "Folder"
       }
@@ -190,7 +190,7 @@ vmware.vmware.esxi_connection:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "ESXi"
       }
@@ -204,7 +204,7 @@ vmware.vmware.esxi_host:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "ESXi"
       }
@@ -218,7 +218,7 @@ vmware.vmware.esxi_maintenance_mode:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "ESXi"
       }
@@ -232,7 +232,7 @@ vmware.vmware.folder:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Management",
         device_type: "Folder"
       }
@@ -246,7 +246,7 @@ vmware.vmware.folder_template_from_vm:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -260,7 +260,7 @@ vmware.vmware.guest_info:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -274,7 +274,7 @@ vmware.vmware.import_content_library_iso:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -288,7 +288,7 @@ vmware.vmware.import_content_library_ovf:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -302,7 +302,7 @@ vmware.vmware.license_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -316,7 +316,7 @@ vmware.vmware.local_content_library:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -330,7 +330,7 @@ vmware.vmware.subscribed_content_library:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -344,7 +344,7 @@ vmware.vmware.tag_associations:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -358,7 +358,7 @@ vmware.vmware.tag_categories:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -372,7 +372,7 @@ vmware.vmware.tags:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "Resource"
       }
@@ -386,7 +386,7 @@ vmware.vmware.vcsa_backup_schedule:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "vCenter Appliance"
       }
@@ -400,7 +400,7 @@ vmware.vmware.vcsa_backup_schedule_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "vCenter Appliance"
       }
@@ -414,7 +414,7 @@ vmware.vmware.vcsa_settings:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "vCenter Appliance"
       }
@@ -428,7 +428,7 @@ vmware.vmware.vm:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -442,7 +442,7 @@ vmware.vmware.vm_advanced_settings:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -456,7 +456,7 @@ vmware.vmware.vm_apply_customization:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -470,7 +470,7 @@ vmware.vmware.vm_list_group_by_clusters_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -484,7 +484,7 @@ vmware.vmware.vm_portgroup_info:
         id: .id
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -498,7 +498,7 @@ vmware.vmware.vm_powerstate:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -512,7 +512,7 @@ vmware.vmware.vm_resource_info:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
@@ -526,7 +526,7 @@ vmware.vmware.vm_snapshot:
         moid: .moid
       },
       facts: {
-        infra_type: "PrivateCloud",
+        infra_type: "PrivateCloudVMWARE",
         infra_bucket: "Compute",
         device_type: "VM"
       }
